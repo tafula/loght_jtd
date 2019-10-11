@@ -1,0 +1,4 @@
+Ds_up_to	6
+precision	10
+residues	1 4 8 16 12 16
+plot_color	#1f1a4f #c82027 #b3b3b3
