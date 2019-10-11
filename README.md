@@ -1,5 +1,5 @@
 # Python scripts for figures in:
-### *"On Landau-Siegel zeros and heights of singular moduli"* [DOI:?](https://doi.org/?) / [arXiv:?](https://arxiv.org/abs/?)
+### *"On Landau-Siegel zeros and heights of singular moduli"* [arXiv:?](https://arxiv.org/abs/?) / [Download](http://www.kurims.kyoto-u.ac.jp/~tafula/pdf/abc_siegel.pdf)
 
 ----
 ## Description
@@ -10,15 +10,15 @@
 
 * *params.txt:* Tells generators the upper limit and precision for values generated for lists (default: *negative fundamental discriminants* up to -10^6, *precision* up to 10^{-16})
 
-* *lpl1chiD/\** Additional scripts to calculate and plot L'(1, chi\_D)/L(1, chi\_D) (cf. lpl1chiD/README.md)
+* *lpl1chiD/\*:* Additional scripts to calculate and plot L'(1, chi\_D)/L(1, chi\_D) (cf. lpl1chiD/README.md)
 
 ----
 ### Generated files
 #### Images
 * *imgs/figure\_1.png:* Graph of ht(j(tau\_D))/3log(|D|) for D negative fundamental discriminants with |D| <= 10^6, where:
- * *ht* = absolute logarithmic Weil height,
- * *j* = Klein's classical j-invariant function,
- * *tau_D* = sqrt(D)/2 if D == 0 (mod 4), (-1+sqrt(D))/2 if D == 1 (mod 4),
+	* *ht* = absolute logarithmic Weil height,
+	* *j* = Klein's classical j-invariant function,
+	* *tau_D* = sqrt(D)/2 if D == 0 (mod 4), (-1+sqrt(D))/2 if D == 1 (mod 4),
 
 
 #### Lists

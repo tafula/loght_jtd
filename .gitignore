@@ -1,2 +1,6 @@
-#ignore lists
+#ignore lists/
 lists/*
+
+#ignore lists in lpl1chiD
+lpl1chiD/Ds.txt
+lpl1chiD/lpl1chiD.txt
