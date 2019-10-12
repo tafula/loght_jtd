@@ -24,7 +24,7 @@
 #### Lists
 * *lists/negFDs.txt:* Negative fundamental discriminants for D > -10^6
 
-* *lists/hjtds.txt:* List of the values of ht(j(tau_D))/log(|D|) for D > -10^6
+* *lists/hjtds.txt:* List of the values of ht(j(tau_D))/3log(|D|) for D > -10^6
 
 ----
 ## How to run

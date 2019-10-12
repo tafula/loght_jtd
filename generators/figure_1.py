@@ -56,7 +56,7 @@ plt.ticklabel_format(style='sci', axis='x', scilimits=(0,0))
 
 plt.xlabel(r'$|D|$')
 plt.ylabel(r'$\frac{\mathrm{ht}(j(\tau_{D}))}{3\log(|D|)}$')
-plt.plot(FDS, HEI, marker='.', linestyle='', zorder=.5, color='tab:blue', alpha=1)
+plt.plot(FDS, HEI, marker=',', linestyle='', zorder=.5, color='tab:blue', alpha=1)
 
 # red line
 #plt.plot(range(10, int(FDS[len(FDS)-1])), [3 - 3*log(log(i))/log(i) for i in range(10, int(FDS[len(FDS)-1]))], linestyle='-', color='r')
