@@ -1,5 +1,5 @@
 # Python scripts for figures in:
-### *"On Landau–Siegel zeros and heights of singular moduli"* [arXiv:1911.07745](https://arxiv.org/abs/1911.07745)
+### *"On Landau–Siegel zeros and heights of singular moduli"* [arXiv:1911.07215](https://arxiv.org/abs/1911.07215)
 
 ----
 ## Description
