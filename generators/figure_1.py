@@ -8,6 +8,7 @@ basepath = os.path.dirname(__file__)
 
 # fundamental discriminants up to N
 filepath = os.path.abspath(os.path.join(basepath, "..", "params.txt"))
+Nexp = int(open(filepath).read().split()[1])
 N = 10**int(open(filepath).read().split()[1])
 
 
@@ -31,10 +32,10 @@ def vectorize( vet):
 ##   M a i n   ##
 #################
 
-filepath = os.path.abspath(os.path.join(basepath, "..", "lists", "negFDs.txt"))
+filepath = os.path.abspath(os.path.join(basepath, "..", "lists", "1e" + str(Nexp), "negFDs_" + '1e' + str(Nexp) + ".txt"))
 FDS = vectorize( splita(open(filepath)))
 
-filepath = os.path.abspath(os.path.join(basepath, "..", "lists", "hjtds.txt"))
+filepath = os.path.abspath(os.path.join(basepath, "..", "lists", "1e" + str(Nexp), "hjtds_" + '1e' + str(Nexp) + ".txt"))
 HEI = vectorize( splita(open(filepath)))
 
 
@@ -73,4 +74,4 @@ plt.ylim(ymin=0)
 plt.grid(zorder=2.5, color='k', alpha=.25)
 
 #plt.show()
-plt.savefig(os.path.abspath(os.path.join(basepath, "..", "imgs", "figure_1.png")), dpi = 96)
+plt.savefig(os.path.abspath(os.path.join(basepath, "..", "imgs", "figure_" + "1e" + str(Nexp) + ".png")), dpi = 96)

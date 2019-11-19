@@ -1,5 +1,5 @@
 # Python scripts for figures in:
-### *"On Landau–Siegel zeros and heights of singular moduli"* [arXiv:?](https://arxiv.org/abs/?) / [Download](http://www.kurims.kyoto-u.ac.jp/~tafula/pdf/abc_siegel.pdf)
+### *"On Landau–Siegel zeros and heights of singular moduli"* [arXiv:1911.07745](https://arxiv.org/abs/1911.07745)
 
 ----
 ## Description
@@ -15,16 +15,16 @@
 ----
 ### Generated files
 #### Images
-* *imgs/figure\_1.png:* Graph of ht(j(tau\_D))/3log(|D|) for D negative fundamental discriminants with |D| <= 10^6, where:
+* *imgs/figure\_1eN.png:* Graph of ht(j(tau\_D))/3log(|D|) for D negative fundamental discriminants with |D| <= 10^N, where:
 	* *ht* = absolute logarithmic Weil height,
 	* *j* = Klein's classical j-invariant function,
 	* *tau_D* = sqrt(D)/2 if D == 0 (mod 4), (-1+sqrt(D))/2 if D == 1 (mod 4),
 
 
 #### Lists
-* *lists/negFDs.txt:* Negative fundamental discriminants for D > -10^6
+* *lists/negFDs_1eN.txt:* Negative fundamental discriminants for D > -10^N
 
-* *lists/hjtds.txt:* List of the values of ht(j(tau_D))/3log(|D|) for D > -10^6
+* *lists/hjtds_1eN.txt:* List of the values of ht(j(tau_D))/3log(|D|) for D > -10^N
 
 ----
 ## How to run

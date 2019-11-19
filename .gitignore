@@ -1,3 +1,6 @@
+#ignore 00debg/
+00debg/*
+
 #ignore lists/
 lists/*
 

@@ -7,6 +7,7 @@ basepath = os.path.dirname(__file__)
 
 # fundamental discriminants up to N
 filepath = os.path.abspath(os.path.join(basepath, "..", "params.txt"))
+Nexp = int(open(filepath).read().split()[1])
 N = 10**int(open(filepath).read().split()[1])
 
 # precision
@@ -100,11 +101,16 @@ def hei(A):
 ##   M a i n   ##
 #################
 
-filepath1 = os.path.abspath(os.path.join(basepath, "..", "lists", "negFDs.txt"))
+try:
+	os.mkdir(os.path.join(basepath, "..", "lists", "1e" + str(Nexp)))
+except (OSError):
+	pass
+
+filepath1 = os.path.abspath(os.path.join(basepath, "..", "lists", "1e" + str(Nexp), "negFDs_1e" + str(Nexp) + ".txt"))
 f1 = open(filepath1, 'a+')
 #f1.truncate()
 
-filepath2 = os.path.abspath(os.path.join(basepath, "..", "lists", "hjtds.txt"))
+filepath2 = os.path.abspath(os.path.join(basepath, "..", "lists", "1e" + str(Nexp), "hjtds_1e" + str(Nexp) + ".txt"))
 f2 = open(filepath2, 'a+')
 #f2.truncate()
 
